@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.3.6
+Build-Jdk-Spec: 11
+Implementation-Title: adobedemosystemprogram42 - UI content
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Type: content
+Content-Package-Id: com.adobedemosystemprogram42:aem-adobedemosystemprog
+ ram42-project.ui.content:0.0.1-SNAPSHOT
+Content-Package-Description: UI content package for adobedemosystemprogr
+ am42
+Content-Package-Dependencies: com.adobedemosystemprogram42:aem-adobedemo
+ systemprogram42-project.ui.apps:0.0.1-SNAPSHOT
+Content-Package-Dependencies-Locations: com.adobedemosystemprogram42:aem
+ -adobedemosystemprogram42-project.ui.apps:0.0.1-SNAPSHOT=maven:com.adob
+ edemosystemprogram42:aem-adobedemosystemprogram42-project.ui.apps:0.0.1
+ -SNAPSHOT:zip
+Content-Package-Roots: /conf/adobedemosystemprogram42,/content/adobedemo
+ systemprogram42,/content/dam/adobedemosystemprogram42,/content/dam/adob
+ edemosystemprogram42/asset.jpg,/content/experience-fragments/adobedemos
+ ystemprogram42
+

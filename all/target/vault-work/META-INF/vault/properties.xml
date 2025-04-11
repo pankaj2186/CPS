@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>adobedemosystemprogram42 - All</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="created">2025-04-11T01:52:14.109Z</entry>
+<entry key="groupId">com.adobedemosystemprogram42</entry>
+<entry key="name">aem-adobedemosystemprogram42-project.all</entry>
+<entry key="description">All content package for adobedemosystemprogram42</entry>
+<entry key="artifactId">aem-adobedemosystemprogram42-project.all</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.adobedemosystemprogram42</entry>
+</properties>

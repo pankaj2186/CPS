@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/adobedemosystemprogram42-packages"/>
+    <filter root="/apps/adobedemosystemprogram42-vendor-packages"/>
+    <filter root="/apps/adobedemosystemprogram42-packages/application/install/itextpdf-5.5.10.jar"/>
+    <filter root="/apps/adobedemosystemprogram42-packages/application/install/commons-io-2.18.0.jar"/>
+    <filter root="/apps/adobedemosystemprogram42-packages/application/install/commons-lang3-3.17.0.jar"/>
+    <filter root="/apps/adobedemosystemprogram42-packages/application/install/xmlworker-5.5.10.jar"/>
+</workspaceFilter>

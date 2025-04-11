@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.3.6
+Build-Jdk-Spec: 11
+Implementation-Title: adobedemosystemprogram42 - All
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Type: container
+Content-Package-Id: com.adobedemosystemprogram42:aem-adobedemosystemprog
+ ram42-project.all:0.0.1-SNAPSHOT
+Content-Package-Description: All content package for adobedemosystemprog
+ ram42
+Content-Package-Roots: /apps/adobedemosystemprogram42-packages,/apps/ado
+ bedemosystemprogram42-packages/application/install/commons-io-2.18.0.ja
+ r,/apps/adobedemosystemprogram42-packages/application/install/commons-l
+ ang3-3.17.0.jar,/apps/adobedemosystemprogram42-packages/application/ins
+ tall/itextpdf-5.5.10.jar,/apps/adobedemosystemprogram42-packages/applic
+ ation/install/xmlworker-5.5.10.jar,/apps/adobedemosystemprogram42-vendo
+ r-packages
+

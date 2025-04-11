@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/adobedemosystemprogram42",
+        "create path (nt:unstructured) /content/dam/adobedemosystemprogram42/jcr:content",
+        "set properties on /content/dam/adobedemosystemprogram42/jcr:content\n  set cq:conf{String} to /conf/adobedemosystemprogram42\n  set jcr:title{String} to \"adobedemosystemprogram42\"\nend"
+    ]
+}

@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.3.6
+Build-Jdk-Spec: 11
+Implementation-Title: adobedemosystemprogram42 - UI apps
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Type: application
+Content-Package-Id: com.adobedemosystemprogram42:aem-adobedemosystemprog
+ ram42-project.ui.apps:0.0.1-SNAPSHOT
+Content-Package-Description: UI apps package for adobedemosystemprogram4
+ 2
+Content-Package-Roots: /apps/adobedemosystemprogram42/clientlibs,/apps/a
+ dobedemosystemprogram42/components,/apps/adobedemosystemprogram42/i18n
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/adobedemosystemprogram42/clientlibs"/>
+    <filter root="/apps/adobedemosystemprogram42/components"/>
+    <filter root="/apps/adobedemosystemprogram42/i18n"/>
+</workspaceFilter>

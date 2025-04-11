@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.adobedemosystemprogram42.core.workflow.GeneratePDFProcess">
+  <property name="process.label" type="String" value=" CPS PDF Generation Process"/>
+  <service>
+    <provide interface="com.adobe.granite.workflow.exec.WorkflowProcess"/>
+  </service>
+  <reference name="assetService" interface="com.adobedemosystemprogram42.core.services.AssetService" field="assetService"/>
+  <reference name="pdfHttpService" interface="com.adobedemosystemprogram42.core.services.PdfGenerationService" target="(component.name=com.adobedemosystemprogram42.core.services.Impl.PdfGenerationServiceImpl)" field="pdfHttpService"/>
+  <reference name="resolverFactory" interface="org.apache.sling.api.resource.ResourceResolverFactory" field="resolverFactory"/>
+  <implementation class="com.adobedemosystemprogram42.core.workflow.GeneratePDFProcess"/>
+</scr:component>

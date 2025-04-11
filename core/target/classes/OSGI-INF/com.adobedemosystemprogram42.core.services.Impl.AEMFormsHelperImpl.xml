@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.adobedemosystemprogram42.core.services.Impl.AEMFormsHelperImpl" immediate="true">
+  <service>
+    <provide interface="com.adobedemosystemprogram42.core.services.AEMFormsHelper"/>
+  </service>
+  <reference name="assemblerService" interface="com.adobe.fd.assembler.service.AssemblerService" field="assemblerService"/>
+  <reference name="outputService" interface="com.adobe.fd.output.api.OutputService" field="outputService"/>
+  <reference name="resourceResolverFactory" interface="org.apache.sling.api.resource.ResourceResolverFactory" field="resourceResolverFactory"/>
+  <implementation class="com.adobedemosystemprogram42.core.services.Impl.AEMFormsHelperImpl"/>
+</scr:component>

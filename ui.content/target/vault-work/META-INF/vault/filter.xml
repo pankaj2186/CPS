@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/adobedemosystemprogram42" mode="merge"/>
+    <filter root="/content/adobedemosystemprogram42" mode="merge"/>
+    <filter root="/content/dam/adobedemosystemprogram42" mode="merge">
+        <exclude pattern="/content/dam/adobedemosystemprogram42(/.*)?"/>
+        <include pattern="/content/dam/adobedemosystemprogram42/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/adobedemosystemprogram42/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/adobedemosystemprogram42" mode="merge"/>
+</workspaceFilter>

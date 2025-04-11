@@ -1,0 +1,40 @@
+{
+  "id":"com.adobedemosystemprogram42:aem-adobedemosystemprogram42-project.all:slingosgifeature:author:0.0.1-SNAPSHOT",
+  "configurations":  {
+    "com.adobe.granite.cors.impl.CORSPolicyImpl~adobedemosystemprogram42":    {
+      "alloworigin":[
+        "http://localhost:3000"
+      ],
+      "allowedpaths":[
+        "/(content|conf)/adobedemosystemprogram42.*"
+      ],
+      "supportedheaders":[
+        "Authorization",
+        "Origin",
+        "Accept",
+        "X-Requested-With",
+        "Content-Type",
+        "Access-Control-Request-Method",
+        "Access-Control-Request-Headers"
+      ],
+      "supportedmethods":[
+        "GET",
+        "HEAD"
+      ],
+      "alloworiginregexp":[
+      ],
+      ":configurator:content-package-origins":"com.adobedemosystemprogram42:aem-adobedemosystemprogram42-project.all:0.0.1-SNAPSHOT|com.adobedemosystemprogram42:aem-adobedemosystemprogram42-project.ui.config:0.0.1-SNAPSHOT"
+    },
+    "org.apache.sling.jcr.base.internal.LoginAdminWhitelist":    {
+      "whitelist.bypass":true,
+      ":configurator:content-package-origins":"com.adobedemosystemprogram42:aem-adobedemosystemprogram42-project.all:0.0.1-SNAPSHOT|com.adobedemosystemprogram42:aem-adobedemosystemprogram42-project.ui.config:0.0.1-SNAPSHOT"
+    },
+    "com.day.cq.wcm.mobile.core.impl.MobileEmulatorProvider~adobedemosystemprogram42":    {
+      "mobile.resourceTypes":[
+        "adobedemosystemprogram42/components/page"
+      ],
+      "README":"Indicate which page resource types should display the mobile emulators.",
+      ":configurator:content-package-origins":"com.adobedemosystemprogram42:aem-adobedemosystemprogram42-project.all:0.0.1-SNAPSHOT|com.adobedemosystemprogram42:aem-adobedemosystemprogram42-project.ui.config:0.0.1-SNAPSHOT"
+    }
+  }
+}

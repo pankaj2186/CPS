@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.adobedemosystemprogram42.core.servlets.GetOrderedAssetList">
+  <property name="sling.servlet.resourceTypes" type="String">cps/components/orderedAssetList</property>
+  <property name="sling.servlet.methods" type="String">GET</property>
+  <property name="sling.servlet.resourceSuperType" type="String" value="sling/bundle/resource"/>
+  <service>
+    <provide interface="javax.servlet.Servlet"/>
+  </service>
+  <reference name="assetService" interface="com.adobedemosystemprogram42.core.services.AssetService" field="assetService"/>
+  <implementation class="com.adobedemosystemprogram42.core.servlets.GetOrderedAssetList"/>
+</scr:component>

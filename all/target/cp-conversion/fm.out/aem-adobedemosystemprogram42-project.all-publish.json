@@ -1,0 +1,12 @@
+{
+  "id":"com.adobedemosystemprogram42:aem-adobedemosystemprogram42-project.all:slingosgifeature:publish:0.0.1-SNAPSHOT",
+  "configurations":  {
+    "org.apache.sling.jcr.resource.internal.JcrResourceResolverFactoryImpl":    {
+      "resource.resolver.mapping":[
+        "/content/adobedemosystemprogram42/</",
+        "/:/"
+      ],
+      ":configurator:content-package-origins":"com.adobedemosystemprogram42:aem-adobedemosystemprogram42-project.all:0.0.1-SNAPSHOT|com.adobedemosystemprogram42:aem-adobedemosystemprogram42-project.ui.config:0.0.1-SNAPSHOT"
+    }
+  }
+}
